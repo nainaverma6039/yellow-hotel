@@ -1,0 +1,566 @@
+<html>
+	<head>
+		<title>Yellow Hotel</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="hd_bar">
+			<div class="container">
+				<div class="col-md-5 col-sm-12 txt_rs">
+					<p class="hd_penv mt_1 txt_cnt">
+						<i class="fa fa-envelope"></i> organisation_name@gmail.com 
+						<span class="hidden-xs">|</span>
+						<i class="fa fa-phone hidden-xs"></i> +91-8987654321
+					</p>
+				</div>
+				<div class="col-md-3">
+					
+				</div>
+				<div class="col-md-4  col-sm-12 txt_mt">
+					<p class="hd_penv mt_rs10">
+						<a href="#" class="cl_mr icncl_wh"><i class="fa fa-facebook hidden-xs"></i> Facebook</a>
+						<a href="#" class="cl_mr icncl_whgg"><i class="fa fa-Google-plus hidden-xs"></i> Google plus</a>
+						<a href="#" class="cl_mr icncl_whtw"><i class="fa fa-instagram hidden-xs"></i> Instagram</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="logo_bar">
+			<div class="container">
+				<div class="col-md-2">
+					<center><img src="images/logo.png" class="img-responsive" style="height: 100px;"></center>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-6">
+				<div class="hidden-xs mt-r32"></div>
+					<div id="page">  
+						<div class="wrap">
+							<header id="header" class="row cf">
+								<nav id="top-nav" class="dropdown cf">
+								</nav>
+								<button id="primary-nav-button" type="button">Menu</button>
+								<nav id="primary-nav" class="dropdown cf">
+									<ul class="dropdown menu">
+										<li class='active'><a href="index.html">Home</a></li>
+										<li><a href="ypromise.html" target="_blank">Yellow Promise</a></li>
+										<li><a href="blog.html" target="_blank">Blogs</a></li>
+										<li><a href="offers.html" target="_blank">Offers</a></li>
+										<li><a href="booknow.html" target="_blank">Book Now</a></li>
+									</ul>
+								</nav>
+							</header>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pd_20">
+			<div class="container-fluid">
+				<div class="row">
+					<img src="images/pic1.jpg" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		<div class="bg_clr">
+			<div class="container">
+				<div id="loginModal">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#login" data-toggle="tab"><i class="fa fa-bed"></i> Overnight stay</a></li>
+						<li><a href="#create" data-toggle="tab"><i class="fa fa-sun-o"></i>  day Rooms</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane active in" id="login">
+							<div class="col-md-2 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt">Enter City name</p>
+								</div>
+							</div>
+							<div class="col-md-2 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt ml-8">Check-In Date</p>
+								</div>
+							</div>
+							<div class="col-md-2 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt ml-18">Check-Out Date</p>
+								</div>
+							</div>
+							<div class="col-md-1 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt ml-28">Room</p>
+								</div>
+							</div>
+							<div class="col-md-2 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt ml-m6">Enter Adult</p>
+								</div>
+							</div>
+							<div class="col-md-2 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt ml-2">Enter Children</p>
+								</div>
+							</div>
+							<form id="tab" class="form-inline mt-14">
+								<div class="form-group">
+									<label class="hidden-lg hidden-md">Enter City</label>
+									<input type="text" class="form-control" placeholder="City Name" name="city">
+								</div>
+								<div class="form-group">
+									<label class="hidden-lg hidden-md">Check-In</label>
+									<input type="text" class="form-control" placeholder="Check-In Date" name="checkin" onfocus="(this.type='date')">
+								</div>
+								<div class="form-group">
+									<label class="hidden-lg hidden-md">Check-Out</label>
+									<input type="text" class="form-control" placeholder="Check-Out Date" name="checkout" onfocus="(this.type='date')">
+								</div>
+								<div class="form-group">
+									<label class="hidden-lg hidden-md">Check-Out</label>
+									<select class="form-control">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label class="hidden-lg hidden-md">Enter Adult</label>
+									<input type="text" class="form-control" placeholder="Enter Adult" name="adult">
+								</div>
+								<div class="form-group">
+									<label class="hidden-lg hidden-md">Enter Children</label>
+									<input type="text" class="form-control" placeholder="Enter Children" name="children">
+								</div>
+								<button type="submit" class="btn btn-default btnog">Submit</button>
+							</form>               
+						</div>
+						<div class="tab-pane fade" id="create">
+							<div class="col-md-3 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt">Enter City name</p>
+								</div>
+							</div>
+							<div class="col-md-2 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt ml-14">Check-In</p>
+								</div>
+							</div>
+							<div class="col-md-1 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt">Room</p>
+								</div>
+							</div>
+							<div class="col-md-2 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt ml-15">Adult</p>
+								</div>
+							</div>
+							<div class="col-md-4 hidden-xs hidden-sm">
+								<div class="row">
+									<p class="frm_txt">Children</p>
+								</div>
+							</div>
+							<form id="tab" class="form-inline mt-14">
+								<div class="col-md-3 p_b14">
+									<div class="row">
+										<div class="form-group wd100">
+											<label class="hidden-lg hidden-md">Enter City</label>
+											<input type="text" class="form-control wd100" placeholder="City Name" name="city">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2 pl-pr">
+									<div class="form-group wd100">
+										<label class="hidden-lg hidden-md">Check-In</label>
+										<input type="text" class="form-control wd100" placeholder="Check-In Date" name="checkin" onfocus="(this.type='date')">
+									</div>
+								</div>
+								<div class="col-md-1">
+									<div class="row">
+										<div class="form-group wd100">
+											<label class="hidden-lg hidden-md">Room</label>
+											<select class="form-control wd100">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2 pl-pr">
+									<div class="form-group">
+										<div class="form-group wd100">
+											<label class="hidden-lg hidden-md">Enter Adult</label>
+											<input type="text" class="form-control wd100" placeholder="Enter Adult" name="adult">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="row">
+										<div class="form-group">
+											<div class="form-group wd100">
+												<label class="hidden-lg hidden-md">Enter Children</label>
+												<input type="text" class="form-control wd100" placeholder="Enter Children" name="children">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2 pl-pr">
+									<button type="submit" class="btn btn-default btnog">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pad_ig">
+			<div class="container">
+				<div class="col-md-8">
+					<div class="col-md-12 mt_20">
+						<h2 class="tarif">Our Tariff Card</h2>
+					</div>
+					<table class="table table-bordered table-responsive tb_ml_m25">
+						<thead>
+							<tr>
+								<th></th>
+								<th class="tb_hd">One night stay</th>
+								<th class="tb_hd">Special Days</th>
+								<th class="tb_hd">days Room</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="si_br">Stansard room</td>
+								<td class="tt_cnt">2600</td>
+								<td class="tt_cnt">4000</td>
+								<td class="tt_cnt">1400</td>
+							</tr>
+							<tr>
+								<td class="si_br">Superior room</td>
+								<td class="tt_cnt">3200</td>
+								<td class="tt_cnt">5000</td>
+								<td class="tt_cnt">1800</td>
+							</tr>
+							<tr>
+								<td class="si_br">Extra mattress</td>
+								<td class="tt_cnt">1000</td>
+								<td class="tt_cnt">1200</td>
+								<td class="tt_cnt">400</td>
+							</tr>
+							<tr>
+								<td class="si_br">Extra person</td>
+								<td class="tt_cnt">500</td>
+								<td class="tt_cnt">600</td>
+								<td class="tt_cnt">200</td>
+							</tr>
+						</tbody>
+					</table>
+			    </div>
+				<div class="col-md-4 pl_pr">
+					<div class="col-md-12 mt_20">
+						<h2 class="tarif">Enroll Now</h2>
+					</div>
+					<div class="col-md-12 mn_tbl">
+						<form class="form-horizontal mb_7" action="">
+							<div class="form-group">
+								<label class="control-label col-sm-2 tbol_nm" for="email">Email:</label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" name="email" placeholder="Enter email" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2 tbol_nm" for="nme">Name:</label>
+								<div class="col-sm-10">          
+									<input type="password" class="form-control" name="name" placeholder="Enter Name" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2 tbol_nm" for="nme">Number:</label>
+								<div class="col-sm-10">          
+									<input type="password" class="form-control" name="number" placeholder="Enter number" required>
+								</div>
+							</div>
+							<div class="form-group mb_0">        
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-info btn_blu">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+			    </div>
+			</div>
+		</div>
+		<div class="pad_ig pb_40">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="col-md-12">
+						<p class="welc">Welcome To</p>
+					</div>
+					<div class="col-md-12 mt_20">
+						<h2 class="tarif">yellow Hotels</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="row">
+							<p class="welc_ctn">
+								At Yellow Hotels we strive to make every moment matter by being a true host and making all possible
+								arrangements to make your leisure and business trip a comfortable and memorable one. 
+							</p>
+							<p class="welc_ctn">
+								With a promise of efficient services, comfortable and inviting rooms, connected social spaces, 
+								local experiences and flavourful dining, the new Ginger Hotels experience caters to the smart, 
+								new breed of Indian travellers, who are young at heart and travel the country with a thirst to explore
+								and a drive to succeed.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pad_ig bg_proms pb_40">
+			<div class="container">
+				<div class="col-md-12 mt_20">
+					<h2 class="tarif">yellow Promise</h2>
+				</div>
+				<div class="col-md-12">
+					<div class="row">
+						<p class="welc_ctn">
+							Comfortable stay / stay connected (wi-fi symbol)/ flavouful food/ happiness gauranteed
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<center><img src="images/ipic2.png" class="img-responsive"></center>
+					<p class="icn_txt">Comfortable stay</p>
+				</div>
+				<div class="col-md-3">
+					<center><img src="images/ipic3.png" class="img-responsive"></center>
+					<p class="icn_txt">Stay connected</p>
+				</div>
+				<div class="col-md-3">
+					<center><img src="images/ipic1.png" class="img-responsive"></center>
+					<p class="icn_txt">Flavouful food</p>
+				</div>
+				<div class="col-md-3">
+					<center><img src="images/ipic4.png" class="img-responsive"></center>
+					<p class="icn_txt">Happiness gauranteed</p>
+				</div>
+			</div>
+		</div>
+		<div class="pad_ig">
+			<div class="container-fluid">
+				<div class="col-md-12 mt_20">
+					<h2 class="tarif">Our Rooms</h2>
+				</div>
+				<div class="col-md-12">
+					<div class="row">
+						<p class="welc_ctn">
+							All our  rooms are thoughtfully designed with almost everything that a business & leisure
+							traveller might need whilst balancing between luxury & affordability.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row">
+							<div id="news-slider" class="owl-carousel">
+								<div class="post-slide">
+									<div class="post-img">
+										<img src="images/room1.jpg" alt="">
+									</div>
+								</div>
+								<div class="post-slide">
+									<div class="post-img">
+										<img src="images/room2.jpg" alt="">
+									</div>
+								</div>
+								<div class="post-slide">
+									<div class="post-img">
+										<img src="images/room3.jpg" alt="">
+									</div>
+								</div>
+								<div class="post-slide">
+									<div class="post-img">
+										<img src="images/room4.jpg" alt="">
+									</div>
+								</div>
+								<div class="post-slide">
+									<div class="post-img">
+										<img src="images/room5.jpg" alt="">
+									</div>
+								</div>
+								<div class="post-slide">
+									<div class="post-img">
+										<img src="images/room6.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pad_ig pb_40">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="col-md-12 mt_20">
+						<h2 class="tarif">Why Stay with us </h2>
+					</div>
+					<div class="col-md-3 ovg">
+						<img src="images/whypic1.jpg" alt="image" class="imag img-responsive">
+						<div class="overlay">
+							<div class="text"> 
+								It is a modern themed boutique hotel, to cocoon you in maximum comfort.</div>
+						</div>
+					</div>
+					<div class="col-md-3 ovg">
+						<img src="images/whypic2.jpg" alt="image" class="imag img-responsive">
+						<div class="overlay">
+							<div class="text"> 
+							We are very passionate about  creating unique guest experience.To make your 
+							travel arrangements we give you the luxury car experience.
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 ovg">
+						<img src="images/whypic3.jpg" alt="image" class="imag img-responsive">
+						<div class="overlay">
+							<div class="text"> 
+								Our property is very centrally located at the heart of the city having easy access to
+								all the travellers needs.
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 ovg">
+						<img src="images/whypic4.jpg" alt="image" class="imag img-responsive">
+						<div class="overlay">
+							<div class="text"> 
+								I mac station is available at our business centre
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pad_ig">
+			<div class="container-fluid">
+				<div class="col-md-12 mt_20">
+					<h2 class="tarif">Happy customers</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div id="testimonial-slider" class="owl-carousel">
+							<div class="testimonial">
+								<h3 class="title">SURAJ SINGH
+								</h3>
+								<p class="description">
+									"Awesome location and very courteous staff. The hotel is located at the most posh area of Bhubaneswar.
+									Value for money. Breakfast has good varieties and the service is too good."
+								</p>
+							</div>
+							<div class="testimonial">
+								<h3 class="title">Renuka SINGH
+								</h3>
+								<p class="description">
+									"Awesome location and very courteous staff. The hotel is located at the most posh area of Bhubaneswar.
+									Value for money. Breakfast has good varieties and the service is too good."
+								</p>
+							</div>
+							<div class="testimonial">
+								<h3 class="title">Raju Sribastab
+								</h3>
+								<p class="description">
+									"Awesome location and very courteous staff. The hotel is located at the most posh area of Bhubaneswar.
+									Value for money. Breakfast has good varieties and the service is too good."
+								</p>
+							</div>
+							<div class="testimonial">
+								<h3 class="title">SURAJ SINGH
+								</h3>
+								<p class="description">
+									"Awesome location and very courteous staff. The hotel is located at the most posh area of Bhubaneswar.
+									Value for money. Breakfast has good varieties and the service is too good."
+								</p>
+							</div>
+                
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		   
+             
+           <section id="footer">
+		<div class="container">
+			<div class="row  text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-3 col-md-3">
+                   
+					<img src="images/logo.png" class="img-responsive" style="height: 130px;">
+				</div>
+                
+                
+                	<div class="col-xs-12 col-sm-3 col-md-3">
+					<h5>About Us</h5>
+					<p class="foota">A spacious seminar hall Emona is at your disposal in the Central hotel. Using partition walls it can be divided into three smaller halls, suitable for various events like seminars, workshops, press conferences, presentations, social functions and banquets.</p>
+				</div>
+                
+                <div class="col-xs-12 col-sm-3 col-md-3">
+					<h5>CONNECT WITH US</h5>
+                    <p class="foota">Rasulgarh chowk<sup>rd</sup> Lane<br> Bhubaneswar-751001
+				<ul class="list-unstyled list-inline social">
+						<li class="list-inline-item"><a href=" "><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href=" "><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href=" "><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href=" "><i class="fa fa-google-plus"></i></a></li>
+						
+					</ul>
+				</div>
+                
+			
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<h5>POPULAR LINKS</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="contactus.html" target="_blank"><i class="fa fa-angle-double-right"></i>Offers</a></li>
+						<li><a href="blog.html" target="_blank"><i class="fa fa-angle-double-right"></i>Blogs</a></li>
+						<li><a href="reviews.html" target="_blank"><i class="fa fa-angle-double-right"></i>Reviews</a></li>
+						<li><a href="booknow.html" target="_blank"><i class="fa fa-angle-double-right"></i>Book Now</a></li>
+						<li><a href="ypromise.html" target="_blank"><i class="fa fa-angle-double-right"></i>Our Promise</a></li>
+                        <li><a href="contactus.html" target="_blank"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			
+        </div>
+	</section> 
+    
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+		<script>
+				$(document).ready(function(){
+					$("#testimonial-slider").owlCarousel({
+						items:3,
+						itemsDesktop:[1000,2],
+						itemsDesktopSmall:[979,2],
+						itemsTablet:[768,1],
+						pagination:false,
+						navigation:true,
+						navigationText:["",""],
+						autoPlay:true
+					});
+				});
+		</script>
+		<script src="js/rooms.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+</html>
